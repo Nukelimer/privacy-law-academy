@@ -3,11 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 
 import {
   ClerkProvider,
-  SignInButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
+  
 } from '@clerk/nextjs'
 import Header from "../components/Header";
 import { LightToggle } from "../components/Light_Toggle";
