@@ -6,16 +6,7 @@ import {
   
 } from '@clerk/nextjs'
 import Header from "../components/Header";
-import { LightToggle } from "../components/Light_Toggle";
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Data Privacy Academy",
