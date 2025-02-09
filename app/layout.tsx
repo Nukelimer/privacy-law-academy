@@ -1,5 +1,4 @@
-import type { Metadata } from "next";
-import { headers } from "next/headers";
+
 import { Figtree } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./components/theme-provider";
