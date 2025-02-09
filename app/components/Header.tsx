@@ -56,7 +56,7 @@ function Header() {
                       className="flex space-x-2 items-center text-sm font-medium text-muted-foreground hover:text-foreground transition-colors md:border md:border-border md:rounded-md md:px-4 md:py-1 ">
                       <Book />
 
-                      <span className="hidden md:block">My Courses</span>
+                      <span className=" md:block">My Courses</span>
                     </Link>
                   </SignedIn>
 
@@ -84,7 +84,7 @@ function Header() {
                   className="flex space-x-2 items-center text-sm font-medium text-muted-foreground hover:text-foreground transition-colors md:border md:border-border md:rounded-md md:px-4 md:py-1 ">
                   <Book />
 
-                  <span className="hidden md:block">My Courses</span>
+                  <span className=" md:block">My Courses</span>
                 </Link>
               </SignedIn>
 
@@ -95,7 +95,7 @@ function Header() {
 
             <SignedOut>
               <SignInButton mode="modal">
-                <Button variant="secondary">Use Now</Button>
+                <Button variant="secondary"></Button>
               </SignInButton>
             </SignedOut>
             <LightToggle />
