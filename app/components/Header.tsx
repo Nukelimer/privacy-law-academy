@@ -47,7 +47,7 @@ function Header() {
                 )}
               </div>
 
-              <div className="flex flex-col fixed right-2 cont ainer justify-center  top-20 mx-auto  space-y-2 md:space-x-4 md:hidden">
+              <div className="flex flex-col fixed right-3 cont ainer justify-center  top-20 mx-auto  space-y-2 md:space-x-4 md:hidden items-center ">
                 <div className="flex items-center justify-center  flex-col space-y-2 md:space-x-4">
                   <SignedIn>
                     <Link
@@ -65,7 +65,10 @@ function Header() {
 
                 <SignedOut>
                   <SignInButton mode="modal">
-                    <Button variant="secondary">
+                    <Button
+                      variant="outline"
+                      className="w-fit h-fit px-[0.35rem] py-[0.4rem]"
+                      size={"sm"}>
                       <Key />
                     </Button>
                   </SignInButton>
