@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import Logo from "../../public/pla_logo.png";
 import Image from "next/image";
 import { LightToggle } from "./Light_Toggle";
-import { Book, PanelLeftClose, PanelRightClose } from "lucide-react";
+import { Book, Key, PanelLeftClose, PanelRightClose } from "lucide-react";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import SearchInput from "./SearchInput";
 
@@ -55,8 +55,6 @@ function Header() {
                       prefetch={false}
                       className="flex space-x-2 items-center text-sm font-medium text-muted-foreground hover:text-foreground transition-colors md:border md:border-border md:rounded-md md:px-4 md:py-1 ">
                       <Book />
-
-                     
                     </Link>
                   </SignedIn>
 
@@ -67,7 +65,9 @@ function Header() {
 
                 <SignedOut>
                   <SignInButton mode="modal">
-                    <Button variant="secondary">Use Now</Button>
+                    <Button variant="secondary">
+                      <Key />
+                    </Button>
                   </SignInButton>
                 </SignedOut>
                 <LightToggle />
@@ -95,7 +95,7 @@ function Header() {
 
             <SignedOut>
               <SignInButton mode="modal">
-                <Button variant="secondary"></Button>
+                <Button variant="secondary">Login</Button>
               </SignInButton>
             </SignedOut>
             <LightToggle />
