@@ -16,7 +16,7 @@ export function LightToggle() {
   const { setTheme } = useTheme()
 
   return (
-    
+
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="outline" size="default" className="px-[0.35rem] py-[0.4rem] w-fit h-fit ">
