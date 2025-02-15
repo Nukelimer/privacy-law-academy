@@ -11,6 +11,8 @@ import { lessonCompletionType } from './lessonCompleted'
 
 export const schema: { types: SchemaTypeDefinition[] } = {
   types: [
+
+    
     courseType,
     moduleType,
     lessonType,
@@ -19,5 +21,9 @@ export const schema: { types: SchemaTypeDefinition[] } = {
     studentType,
     enrollmentType,
     categoryType,
-    lessonCompletionType,],
+    lessonCompletionType,
+  
+  
+  
+  ],
 }
